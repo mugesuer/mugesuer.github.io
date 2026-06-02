@@ -28,7 +28,7 @@
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
     .nav-links a { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; transition: color 0.25s; }
     .nav-links a:hover { color: var(--accent); }
-    #hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; padding-top: 80px; }
+    .#hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; padding-top: 80px; max-height: 700px; }
     .hero-left { display: flex; flex-direction: column; justify-content: center; padding: 6rem 4rem; z-index: 1; }
     .hero-eyebrow { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.6rem; }
     h1 { font-family: var(--serif); font-size: clamp(3.5rem, 6vw, 5.5rem); font-weight: 300; line-height: 1.05; margin-bottom: 1.8rem; }
@@ -40,7 +40,7 @@
     .btn-outline { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); background: transparent; border: 1px solid var(--ink-light); padding: 0.85rem 2rem; text-decoration: none; transition: border-color 0.25s, color 0.25s; display: inline-block; }
     .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
     .hero-right { position: relative; overflow: hidden; background: var(--paper-warm); max-height: 600px; }
-    .hero-photo { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+    .hero-photo { width: 100%; height: auto; max-height: 700px; object-fit: contain; object-position: center bottom; display: block; }
     .section-inner { max-width: 980px; margin: 0 auto; padding: 5rem 2rem; }
     .section-label { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.8rem; }
     .section-label::after { content: ""; flex: 1; height: 1px; background: var(--rule); max-width: 80px; }
